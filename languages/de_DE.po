@@ -1,0 +1,285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-08-10 16:31+0100\n"
+"PO-Revision-Date: 2015-08-10 16:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:30 index.php:55 search.php:31
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+#: archive.php:31 index.php:56 search.php:32
+msgid "Next page"
+msgstr "Nächste Seite"
+
+#: archive.php:32 index.php:57 search.php:33
+msgid "Page:"
+msgstr "Seite:"
+
+#: attachment.php:11
+msgid "Download:"
+msgstr "Download:"
+
+#: content-archive.php:5 index.php:36
+msgid "Read more"
+msgstr "Mehr lesen"
+
+#: content-none.php:3
+msgid "Oops, there seems to be no content :("
+msgstr "Oops, leider gibt es nichts anzuzeigen :("
+
+#: content-post.php:31
+msgid "Tags:"
+msgstr "Tags:"
+
+#: content-post.php:41
+msgid "Categories: "
+msgstr "Kategorien:"
+
+#: footer.php:14
+msgid "Scroll to top"
+msgstr "Hinaufscrollen"
+
+#: functions.php:40
+msgid "Assign Pages"
+msgstr "Seizen zuordnen"
+
+#: functions.php:41
+msgid ""
+"Assign the pages to the home page menus. If you choose to show 2, the first "
+"2 will be displayed. (Note: You have to set \"static page\" and use the Page "
+"Template \"Front Page\" for that.)"
+msgstr ""
+"Teile die Seiten auf der Home Page zu. Wenn du 2 auswählst, werden die "
+"ersten 2 angezeigt. (Achtung: Du musst \"Statische Seite\" wählen und eine "
+"Seite mit dem Template \"Front Page\" erstellen.)"
+
+#: functions.php:113
+msgid "How many links on the home page?"
+msgstr "Wie viele Links auf der Homepage?"
+
+#: functions.php:131
+msgid "Page for 1. box"
+msgstr "Page für 1. Box"
+
+#: functions.php:143
+msgid "Page for 2. box"
+msgstr "Page für 2. Box"
+
+#: functions.php:155
+msgid "Page for 3. box"
+msgstr "Page für 3. Box"
+
+#: functions.php:165
+msgid "Color of the pages title"
+msgstr "Farben von den Seitentiteln"
+
+#: functions.php:173
+msgid "Color of the pages box"
+msgstr "Farben der Seitenboxen"
+
+#: functions.php:181
+msgid "Background Image"
+msgstr "Hintergrundbild"
+
+#: functions.php:192
+msgid "Comments"
+msgstr "Kommentare"
+
+#: functions.php:193
+msgid "Should the Facebook Comment Plugin be displayed?"
+msgstr "Soll das Facebook Kommentar Plugin angezeigt werden?"
+
+#: functions.php:209
+msgid "Where to show comments plugin of Facebook?"
+msgstr "Wo sollen das Facebook Kommentar Plugin angezeigt werden?"
+
+#: functions.php:214
+msgid "Nowhere"
+msgstr "Nirgends"
+
+#: functions.php:215
+msgid "Posts only"
+msgstr "Nur auf Posts"
+
+#: functions.php:216
+msgid "Pages only"
+msgstr "Nur auf Seiten"
+
+#: functions.php:217
+msgid "Posts and Pages"
+msgstr "Posts und Seiten"
+
+#: functions.php:228
+msgid "Share Buttons"
+msgstr "Teilen Buttons"
+
+#: functions.php:229 functions.php:245
+msgid "Should Share Buttons be displayed?"
+msgstr "Sollen Teilen Buttons angezeigt werden?"
+
+#: functions.php:255
+msgid "Color"
+msgstr "Farbe"
+
+#: functions.php:295
+msgid "Footer Sidebar"
+msgstr "Footer Sidebar"
+
+#: functions.php:297
+msgid "Widgets in this area will be shown on all pages in the footer."
+msgstr "Widgets hier werden auf allen Seiten im Footer angezeigt."
+
+#: functions.php:304
+msgid "Right Sidebar"
+msgstr "Rechte Sidebar"
+
+#: functions.php:306
+msgid "Widgets in this area will be shown on all pages and posts on the right."
+msgstr ""
+"Widgets hier werden auf allen Posts und Seiten am rechten Rand angezeigt."
+
+#: functions.php:455
+msgid "The following menu items do not have an icon associated:"
+msgstr "Die folgenden Menüpunkte haben kein Icon zugeordnet:"
+
+#: header.php:138 header.php:165
+msgid "Menu"
+msgstr "Menü"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:49
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (ungültig)"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:53
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (Ausstehend)"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:66
+msgid "sub item"
+msgstr "Unterpunkt"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:98
+msgid "Edit Menu Item"
+msgstr "Menüpunkt bearbeiten"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:107
+msgid "URL"
+msgstr "URL"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:114
+msgid "Navigation Label"
+msgstr "Navigation Label"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:120
+msgid "Title Attribute"
+msgstr "Title Attribut"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:127
+msgid "Open link in a new window/tab"
+msgstr "Link in neuem Fenster/Tab öffnen"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:132
+msgid "CSS Classes (optional)"
+msgstr "CSS Klassen (optional)"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:146
+msgid "Link Relationship (XFN)"
+msgstr "Link Relationship (XFN)"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:152
+msgid "Description"
+msgstr "Beschreibung"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:154
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+"Die Beschreibung wird im Menü angezeigt wenn das Theme diese unterstützt."
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:160
+msgid "Move"
+msgstr "Bewegen"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:161
+msgid "Up one"
+msgstr "Eins hinauf"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:162
+msgid "Down one"
+msgstr "Eins hinunter"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:165
+msgid "To the top"
+msgstr "Nach ganz oben"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:172
+#, php-format
+msgid "Original: %s"
+msgstr "Original: %s"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:185
+msgid "Remove"
+msgstr "Entfernen"
+
+#: inc/Walker_Nav_Menu_Edit_Custom.class.php:186
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: search.php:7
+msgid "Search results for:"
+msgstr "Suchergebnisse für:"
+
+#: searchform.php:9
+msgid "Search"
+msgstr "Suchen"
+
+#~ msgid "Download: "
+#~ msgstr "Download:"
+
+#~ msgid "Oops! That page can&rsquo;t be found."
+#~ msgstr "Oops! Diese Seite konnte nicht gefunden werden."
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try a search?"
+#~ msgstr ""
+#~ "Sieht so aus als wäre hier nichts gefunden worden. Probiere es bitte mit "
+#~ "einer Suche."
+
+#~ msgid "Page"
+#~ msgstr "Seite"
+
+#~ msgid "Published by"
+#~ msgstr "Veröffentlicht von"
+
+#~ msgid "View all posts by %s"
+#~ msgstr "Alle Posts von %s"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Kommentare sing geschlossen."
+
+#~ msgid "Continue reading %s"
+#~ msgstr "Weiterlesen %s"
+
+#~ msgid "Pages:"
+#~ msgstr "Seiten:"
+
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "Nothing Found"
+#~ msgstr "Nichts"

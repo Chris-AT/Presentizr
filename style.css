@@ -1,0 +1,1029 @@
+/*
+Theme Name: Presentizr
+Author: Chris-AT
+Version: 1.0
+Description: Bootstrap-based theme (fully responsive), translation ready, integrated share buttons, integrated facebook comment plugin
+Tags: translation-ready, right-sidebar, custom-menu, sticky-post, black, white
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+.wrappertable {
+    display: table;
+    width: 100%;
+}
+
+.gallery-caption {
+    
+}
+
+.wrappercell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+html, body {
+    font-size: 16px;
+    font-family: georgia, "Times New Roman", sans-serif;
+}
+
+.name {
+    color: #FFF;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+/* <editor-fold defaultstate="collapsed" desc=" Top Menu "> */
+
+nav .menu {
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+.heightClass {
+    background-color: #000; 
+
+}
+nav .menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.sub-menu .sub-menu {
+    position: relative;
+    display: inline;
+}
+
+.sub-menu .sub-menu li {
+    padding-left: 1em;
+}
+
+.sub-menu:hover > .sub-menu {
+    position: relative;
+    display: inline;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 0.5em;
+    line-height: 2.4em;
+}
+
+nav .menu li:hover {
+    background-color: #FFF;
+    color: #000;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+nav .menu li .sub-menu:hover .sub-menu li {
+    background-color: #000;
+}
+nav .menu li .sub-menu .sub-menu li:hover {
+    background-color: #FFF;
+}
+
+nav .menu li:hover > a {
+    color: #000;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.menu {
+    background-color: #000;
+    position: relative;
+}
+
+#top .menu-item-has-children:before {
+    font-family: FontAwesome;
+    /*taken from an info page about FontAwesome*/
+    content: "\f0ca";
+    color: #FFF;
+    margin-left: 0.3em;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+#top .menu-item-has-children:hover:before {
+    color: #000;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+/* </editor-fold> */
+
+
+#home-body {
+    background-color: #FFF;
+    background-image: url('pictures/home_picture.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.featured-page {
+    text-align: center;
+    font-size: 3em;
+    color: #00aeef;
+    border: 0.1em solid #FFF;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.featured-page:hover {
+    background-color: rgba(255,255,255,0.2);
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.featured-image {
+    width: auto;
+}
+
+.single-featured-image {
+    margin-bottom: 1em;
+}
+
+.vcenter a:hover {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.widgettitle {
+    color: #FFF;
+}
+
+/* <editor-fold defaultstate="collapsed" desc=" Footer "> */
+.footer ul li {
+    list-style: none;
+}
+#footerliselector > ul > li {
+    padding-left: 0px;
+    float: left;
+    padding-right: 1em;
+}
+
+.footer ul:first-child {
+    padding-left: 0px;
+}
+
+/* </editor-fold> */
+.nocontent {
+    font-size: 3em;
+    color: #000;
+}
+
+.home-name-nav {
+    float: left;
+    color: white;
+    padding: 0.5em;
+}
+
+
+.description {
+    font-size: 0.5em;
+}
+
+#sidebar-right {
+    border-left: 5px solid #008ABD;
+    list-style: none;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+#sidebar-right .widgettitle {
+    color: #000;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.sub-menu li {
+    border: 1px solid #000;
+    clear: both;
+    border: none !important;
+    width: 100%;
+}
+
+.topMenuContainer {
+    background-color: #000;
+}
+
+.menu > li:hover > .sub-menu {
+    display: block;
+    position: absolute;
+    padding-left: 0px;
+    background-color: #000;
+    z-index: 9999;
+}
+
+.details {
+    margin-bottom: 1em;
+}
+/* <editor-fold defaultstate="collapsed" desc=" Tags and Categories on Posts Page "> */
+
+.post-categories {
+    padding: 0em;
+}
+.post-categories li {
+    padding: 0.5em;
+    background-color: #ed331c;
+    color: white;
+    float: left;
+    list-style: none;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.post-categories li a {
+    color: white;
+}
+
+#tag-category-label {
+    float: left;
+    padding: 0.5em;
+    background-color: rgb(28, 148, 237);
+    color: #FFF;
+    list-style: outside none none;
+    margin-right: 0.5em;
+}
+
+.categories {
+    margin-bottom: 1em;
+}
+
+#tags {
+    margin-top: 1em;
+}
+
+#tags a {
+    padding: 0.5em;
+    background-color: #ED331C;
+    color: #FFF;
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* </editor-fold> */
+
+
+/* <editor-fold defaultstate="collapsed" desc=" Comment form "> */
+
+#commentform {
+    padding: 1em;
+    background-color: #eee;
+}
+
+#commentform input, 
+#commentform textarea {
+    display: block;
+    max-width: 100%;
+}
+
+.comment, .pingback {
+    list-style: none;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 1em;
+}
+
+.comment.even, .pingback.even {
+    background-color: #eee;
+}
+
+
+
+.comment-reply-link,
+a.next, 
+a.prev {
+    padding: 0.5em;
+    background-color: #00aeef;
+    color: #fff;
+    display: inline-block;
+}
+
+.reply {
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.comment-reply-link:hover, 
+a.next:hover, 
+a.prev:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #00b9eb;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.bypostauthor {
+    background-color: #00b9eb;
+}
+
+/* </editor-fold> */
+
+/* <editor-fold defaultstate="collapsed" desc=" Secondary Menu "> */
+
+.rotate {
+    transform-origin: 100% 100%;
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    transform: rotate(-90deg);
+}
+
+.secondary-menu-button {
+    position: fixed;
+    right: 0px;
+    color: #000;
+    padding: 10px;
+    margin: 0px;
+    border-right: 5px solid #000;
+    border-left: 5px solid #000;
+    border-top: 5px solid #000;
+    z-index: 1000;
+
+}
+.arrowsup:before, 
+.arrowsup:after {
+    content :'\f106';
+    font-family: FontAwesome;
+}
+.arrowsdown:before, 
+.arrowsdown:after {
+    content :'\f107';
+    font-family: FontAwesome;
+}
+
+
+.secondary-menu-button:hover {
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+}
+
+@-webkit-keyframes LinearAnimation {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes LinearAnimation {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-o-keyframes LinearAnimation {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes LinearAnimation {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+.secondary-menu {
+    right: 0px;
+    height: 100%;
+    background: linear-gradient(0deg, #3fb496, #173830, #3fb496);
+    background-size: 400% 400%;
+    position: fixed;
+    top:0px;
+    overflow-x: hidden;
+    z-index: 999999;
+    white-space: nowrap;
+    -webkit-animation: LinearAnimation 10s ease infinite;
+    -moz-animation: LinearAnimation 10s ease infinite;
+    -o-animation: LinearAnimation 10s ease infinite;
+    animation: LinearAnimation 10s ease infinite;
+}
+
+
+
+
+.secondary-menu ul {
+    list-style: none;
+    padding: 0px;
+    display: table;
+}
+
+.secondary-menu .children {
+    width: 100%;
+}
+
+.secondary-menu li a {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0em 1em 0em 1em;
+}
+
+.secondary-menu li a:hover {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.secondary-menu li {
+    margin: 0px;
+}
+
+.secondary-menu li:not(:last-child) {
+    border-bottom: 0.1em solid #FFF;
+}
+
+.secondary-menu li:hover {
+    background-color: rgba(255,255,255,0.7);
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.secondary-menu a {
+    color: #FFF;
+}
+
+.secondary-menu ul li ul li {
+    padding-left: 1em;
+    border-bottom: none !important;
+}
+
+.secondary-menu .sub-menu {
+    padding-left: 1em;
+}
+.secondary-menu .sub-menu li {
+    border-top: 1px solid #FFF;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+/* </editor-fold> */
+
+/* <editor-fold defaultstate="collapsed" desc=" Credits "> */
+.creditsContainer {
+    background-color: #000;
+}
+
+.credits {
+    background-color: #000;
+    color: #c1c1c1;
+    line-height: 2.5em;
+}
+
+.credits a {
+    color: #FFF;
+    text-decoration: none;
+    float: right;
+}
+
+/* </editor-fold> */
+
+/* <editor-fold defaultstate="collapsed" desc=" Archive Page "> */
+.archive {
+    border: 1px solid #c1c1c1;
+    padding: 0em 1em 1em 1em;
+    margin-bottom: 1em;
+}
+
+.read-more {
+    padding: 0.5em;
+    background-color: #00aeef;
+    color: #FFF;
+    display: inline-block;
+}
+
+.read-more:hover {
+    background-color: #00b9eb;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    color: #FFF;
+}
+
+/* </editor-fold> */
+
+/* <editor-fold defaultstate="collapsed" desc=" Left Menu "> */
+#leftMenu {
+    position: fixed;
+    left: 0px;
+    z-index: 999;
+}
+.left-menu-class {
+    margin: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    background: linear-gradient(270deg, #FFF, #42B195, #FFF);
+    background-size: 600% 600%;
+    -webkit-animation: leftMenuAnimation 11s ease infinite;
+    -moz-animation: leftMenuAnimation 11s ease infinite;
+    animation: leftMenuAnimation 11s ease infinite;
+}
+
+@-webkit-keyframes leftMenuAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes leftMenuAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes leftMenuAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#leftMenu ul:hover .textlink {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.iconLeft {
+    background-color: transparent;
+    padding: 0.5em 0em 0.5em 0em;
+    font-size: 1.5em;
+    color: #000;
+    width: 1.6em;
+    text-align: center;
+}
+
+#leftMenu ul li {
+    list-style: none;
+    background-color: transparent;
+    display: table;
+}
+
+#leftMenu ul li .textlink {
+    color: #000;
+    padding-left: 1em;
+    display: none;
+}
+
+
+#leftMenu ul li .textlink:hover {
+    text-decoration: underline;
+}
+
+/* </editor-fold> */
+
+/* <editor-fold defaultstate="collapsed" desc=" Bottom Mobile Menu "> */
+
+.bottomMobileMenu {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background: linear-gradient(270deg, #FFF, #42B195, #FFF);
+    background-size: 600% 600%;
+    -webkit-animation: leftMenuAnimation 11s ease infinite;
+    -moz-animation: leftMenuAnimation 11s ease infinite;
+    animation: leftMenuAnimation 11s ease infinite;
+    z-index: 999;
+    border-top: 1px solid #000;
+    overflow-y: scroll;
+
+}
+
+.menutext {
+    padding: 0em 0.2em 0em 0.2em;
+}
+
+.bottomMobileMenu a {
+    padding-right: 1em;
+}
+
+.bottomMobileMenuButton {
+    text-align: center;
+    background-color: #FFF;
+    border: 1px solid #000;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    z-index: 999;
+    padding: 0.7em;
+}
+
+.left-menu-mobile-class li {
+    float: left;
+    list-style: none;
+    color: #000;
+}
+
+.left-menu-mobile-class {
+    z-index: 999;
+    color: #000;
+}
+
+.left-menu-mobile-class li .textlink {
+    color: #000;
+}
+.bottomMobileMenuButtonRightMenu {
+    position: fixed;
+    bottom: 0em;
+    z-index: 999;
+    right: 0em;
+    padding: 0.7em 3em 0.7em 2em;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #FFF;
+}
+
+/* </editor-fold> */
+
+/* <editor-fold defaultstate="collapsed" desc=" Pagination "> */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+/* </editor-fold> */
+
+/* <editor-fold defaultstate="collapsed" desc=" Searchform "> */
+
+input#s {
+    width: 100%;
+    background-color: #242424;
+    border: 0em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-top: calc(0.5em + 1px);
+    color: #FFF;
+}
+
+#searchsubmit {
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 0px;
+    background-color: #000;
+    color: #FFF;
+    border: 1px solid #242424;
+}
+
+
+#searchsubmit:hover {
+    background-color: rgb(0, 154, 225);
+    transition: background-color 0.5s;
+
+}
+
+.searchrow {
+    background-color: #000;
+    padding: 0.5em;
+    display: none;
+}
+
+.searchIcon {
+    float: right;
+    color: rgb(255, 255, 255);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 1.4em;
+    cursor: pointer;
+}
+
+.searchIcon:hover {
+    color: #000;
+    background-color: #FFF;
+    transition: background-color 0.5s;
+}
+
+.searchIconMobile {
+    color: #FFF;
+}
+
+/* </editor-fold> */
+
+.page-title-over-image {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    color: #FFF;
+}
+
+.page-title-over-image:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+.page-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #000;
+}
+
+.no-underline:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.featuredImageContainer {
+    padding-top: 1em;
+}
+
+.textOverlay {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.8);
+    padding-left: 1em;
+}
+
+.overlayContainer {
+    position: relative;
+}
+
+.hr-page-title {
+    margin: 0em auto 0.5em auto;
+    width: 0px;
+    text-align: center;
+    border-color: #000 !important;
+}
+
+.black {
+    color: #000;
+    border-color: #000;
+}
+
+.current-menu-item {
+    background-color: #090 !important;
+}
+
+#leftMenu ul li.current-menu-item, 
+.current-menu-item .iconLeft {
+    background-color: #090;
+}
+
+#leftMenu ul li:hover {
+    text-decoration: underline;
+    background-color: rgba(255,255,255,0.5);
+    transition: all ease 0.5s;
+}
+
+.sticky {
+    background-color: #F0EFFF;
+}
+
+.wp-caption-text {
+    font-style: italic;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.row * {
+    max-width: 100% !important;
+}
+
+/* <editor-fold defaultstate="collapsed" desc=" WordPress WYSIWYG Editor Styles "> */
+
+.entry-content img {
+    margin: 0 0 1.5em 0;
+}
+.alignleft, img.alignleft {
+    margin-right: 1.5em;
+    display: inline;
+    float: left;
+}
+.alignright, img.alignright {
+    margin-left: 1.5em;
+    display: inline;
+    float: right;
+}
+.aligncenter, img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear: both;
+}
+
+.wp-caption {
+    margin-bottom: 1.5em;
+    text-align: center;
+    padding-top: 5px;
+}
+.wp-caption img {
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+}
+.wp-caption p.wp-caption-text {
+    line-height: 1.5;
+    font-size: 10px;
+    margin: 0;
+}
+.wp-smiley {
+    margin: 0 !important;
+    max-height: 1em;
+}
+blockquote.left {
+    margin-right: 20px;
+    text-align: right;
+    margin-left: 0;
+    width: 33%;
+    float: left;
+}
+blockquote.right {
+    margin-left: 20px;
+    text-align: left;
+    margin-right: 0;
+    width: 33%;
+    float: right;
+}
+
+/* </editor-fold> */
+/*
+ * for TinyMCE
+*/
+
+#tinymce * {
+    max-width: 100%;
+}
+
+/**
+ * Whatever else is missing
+*/
+
+table, td, tr, th {
+    border: 1px solid #000;
+}
+
+td, th {
+    padding: 0.5em;
+}
+
+.fbsharebutton {
+    margin-bottom: 1em;
+}
+
+.attachment-post-thumbnail.wp-post-image {
+    margin: auto;
+    text-align: center;
+}
+
+
+.attachment-download-link:not(:last-child):after {
+    content: ' | ';
+}
+
+.page-numbers {
+    padding: 0.5em;
+    border: 1px solid rgb(137, 137, 137);
+}
+
+a.page-numbers:hover {
+    background-color: #66C4FF;
+    text-decoration: none;
+}
+
+#wpadminbar {
+    z-index: 99;
+}
+
+/* <editor-fold defaultstate="collapsed" desc=" Mobile Screens "> */
+@media screen and (max-width: 991px) {
+    .name {
+        color: #FFF;
+        font-size: 3em;
+        position: relative;
+        clear: both;
+    }
+    .vcenter {
+        position: relative;
+    }
+    .footer li {
+        float: none;
+    }
+    .footer li:not(:last-child) {
+        padding-right: 0em;
+        border-right: none;
+    }
+    .footer li:not(:first-child) {
+        padding-left: 0em;
+    }
+    .featured-page {
+        border: none;
+    }
+    #mobile-div {
+        display: none;
+        font-size: 0.5em;
+        text-align: left;
+        list-style: none;
+        background-color: #000;
+    }
+
+    .mobile-menu {
+        list-style: none;
+        border: 1px solid #000;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .mobile-menu li {
+        border-top: 1px solid #FFF;
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+    }
+
+    .mobile-menu li a {
+        color: #FFF;
+    }
+
+    .mobile {
+        font-size: 3em;
+        text-align: right;
+        background-color: #000;
+    }
+    .sub-menu {
+        display: block;
+    }
+
+    .sub-menu li {
+        border: none;
+        list-style: none;
+    }
+
+    #mobile-bars .sub-menu li:before {
+        content: '- ';
+        color: #FFF;
+    }
+
+    .home-name-nav {
+        font-size: 0.4em;
+        margin-top: 0.5em;
+        text-align: left;
+    }
+    .fa-bars {
+        color: #FFF;
+    }
+
+    .menu-item-has-children:before {
+        content: none;
+    }
+
+    .credits a {
+        float: none;
+        display: block;
+    }
+    /* to show the menu mobile button and the wole credits*/
+    .credits {
+        margin-bottom: 3em;
+    }
+
+    .secondary-menu-button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .bottomMobileMenu li {
+        clear: both;
+    }
+}
+
+/* </editor-fold> */
+

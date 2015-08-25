@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: standout\n"
+"POT-Creation-Date: 2015-07-22 11:01+0100\n"
+"PO-Revision-Date: 2015-07-22 11:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../archive.php:28
+msgid "Previous page"
+msgstr ""
+
+#: ../archive.php:29
+msgid "Next page"
+msgstr ""
+
+#: ../archive.php:30
+msgid "Page"
+msgstr ""
+
+#: ../content-none.php:2
+msgid "Oops, there seems to be no content :("
+msgstr ""
+
+#: ../content-post.php:17
+msgid "Tags:"
+msgstr ""
+
+#: ../content-post.php:27
+msgid "Categories: "
+msgstr ""
+
+#: ../footer.php:11
+msgid "Scroll to top"
+msgstr ""
+
+#: ../functions.php:97
+msgid "How many links on the home page?"
+msgstr ""
+
+#: ../functions.php:115
+msgid "Page for 1. box"
+msgstr ""
+
+#: ../functions.php:127
+msgid "Page for 2. box"
+msgstr ""
+
+#: ../functions.php:139
+msgid "Page for 3. box"
+msgstr ""
+
+#: ../functions.php:149
+msgid "Color of the pages title"
+msgstr ""
+
+#: ../functions.php:157
+msgid "Color of the pages box"
+msgstr ""
+
+#: ../functions.php:165
+msgid "Background Image"
+msgstr ""
+
+#: ../functions.php:176
+msgid "Comments"
+msgstr ""
+
+#: ../functions.php:177
+msgid "Should the Facebook Comment Plugin be displayed?"
+msgstr ""
+
+#: ../functions.php:193
+msgid "Where to show comments plugin of Facebook?"
+msgstr ""
+
+#: ../functions.php:198
+msgid "Nowhere"
+msgstr ""
+
+#: ../functions.php:199
+msgid "Posts only"
+msgstr ""
+
+#: ../functions.php:200
+msgid "Pages only"
+msgstr ""
+
+#: ../functions.php:201
+msgid "Posts and Pages"
+msgstr ""
+
+#: ../functions.php:212
+msgid "Share Buttons"
+msgstr ""
+
+#: ../functions.php:213 ../functions.php:229
+msgid "Should Share Buttons be displayed?"
+msgstr ""
+
+#: ../functions.php:266
+msgid "Footer Sidebar"
+msgstr ""
+
+#: ../functions.php:268
+msgid "Widgets in this area will be shown on all pages in the footer."
+msgstr ""
+
+#: ../functions.php:275
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../functions.php:277
+msgid "Widgets in this area will be shown on all pages and posts on the right."
+msgstr ""
+
+#: ../functions.php:337
+msgid "Read more"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:48
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:52
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:65
+msgid "sub item"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:97
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:106
+msgid "URL"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:113
+msgid "Navigation Label"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:119
+msgid "Title Attribute"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:126
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:131
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:145
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:151
+msgid "Description"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:153
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:159
+msgid "Move"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:160
+msgid "Up one"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:161
+msgid "Down one"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:164
+msgid "To the top"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:171
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:184
+msgid "Remove"
+msgstr ""
+
+#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:185
+msgid "Cancel"
+msgstr ""
