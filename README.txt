@@ -9,7 +9,7 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
- Presentizr - 1.0
+ Presentizr - 1.0.1
 
 Bootstrap-based theme (fully responsive), translation ready, integrated share buttons, integrated facebook comment plugin
 
