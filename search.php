@@ -4,7 +4,7 @@ get_header();
  * displays the appropriate archive title (tag, date, author...)
  */
 if(is_search()) {
-    echo '<h1 class="archive-page-title">' . __('Search results for:', 'standout') . ' ' . get_search_query() . '</h1>';
+    echo '<h1 class="archive-page-title">' . __('Search results for:', 'presentizr') . ' ' . get_search_query() . '</h1>';
 }
 if (have_posts()) : ?>
     <div class="row">
@@ -28,9 +28,9 @@ if (have_posts()) : ?>
                 * copied from default theme archive php
                 */
                the_posts_pagination( array(
-                   'prev_text'          => __( 'Previous page', 'standout' ),
-                   'next_text'          => __( 'Next page', 'standout' ),
-                   'before_page_number' => '<span class="meta-nav screen-reader-text">'  . __('Page:', 'standout') . ' </span>',
+                   'prev_text'          => __( 'Previous page', 'presentizr' ),
+                   'next_text'          => __( 'Next page', 'presentizr' ),
+                   'before_page_number' => '<span class="meta-nav screen-reader-text">'  . __('Page:', 'presentizr') . ' </span>',
                ) ); ?>
             </div> <!-- .col-xs-12 -->
         </div> <!-- .row -->

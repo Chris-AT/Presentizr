@@ -4,7 +4,7 @@
 <?php while(have_posts()) {
     the_post(); ?>
 <article>
-<h1 class="page-title"><?php the_title(); ?></h1> 
+    <h1 class="page-title"><?php esc_html_e(the_title(), 'presentizr'); ?></h1> 
 
     <?php the_content(); ?>
 </article>

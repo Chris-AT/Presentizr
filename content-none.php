@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-md-9 col-sm-12 nocontent">
-        <?php _e('Oops, there seems to be no content :(', 'standout'); ?>
+        <?php _e('Oops, there seems to be no content :(', 'presentizr'); ?>
     </div>
         <?php 
         $sidebar_right_active = is_active_sidebar('sidebar-right');

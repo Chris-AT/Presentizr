@@ -9,32 +9,32 @@ if (have_posts()) : ?>
         <?php
     while (have_posts()) :
         the_post(); ?>
-    <article <?php post_class('archive'); ?>>
-        <?php if(has_post_thumbnail()): ?>
-        <div class="overlayContainer">
-        <div class="textOverlay">
-            <a href="<?php the_permalink(); ?>" class="page-title-over-image">
-                <h1><?php the_title(); ?></h1>
-            </a>
-            <hr class="hr-page-title"/>
-        </div> <!-- .textOverlay -->
-        <div class="featuredImageContainer">
-        <?php the_post_thumbnail('full', array('class' => 'aligncenter featured-image')); ?> 
-        </div> <!-- .featuredImageContainer -->
-        </div> <!-- .overlayContainer -->
-        <?php else: ?>
-        <a href="<?php the_permalink(); ?>" class="page-title no-underline">
-                <h1><?php the_title(); ?></h1>
-            </a>
-        <hr class="hr-page-title black"/>
-        <?php endif; ?>
-        <div class="details">
-        <span id="author" class="fa fa-user">&nbsp;<?php the_author_posts_link(); ?></span>&nbsp;<span id="time" class="fa fa-clock-o">&nbsp;<?php the_time('l, F j, Y - G:i'); ?></span>
-        </div> <!-- .details -->
-        
-        <?php the_excerpt(); ?>
-        <div><a href="<?php echo get_permalink(); ?>" class="read-more"><?php _e('Read more', 'standout'); ?></a></div>
-    </article>
+        <article <?php post_class('archive'); ?>>
+            <?php if(has_post_thumbnail()): ?>
+            <div class="overlayContainer">
+            <div class="textOverlay">
+                <a href="<?php esc_url(the_permalink()); ?>" class="page-title-over-image">
+                    <h1><?php the_title(); ?></h1>
+                </a>
+                <hr class="hr-page-title"/>
+            </div> <!-- .textOverlay -->
+            <div class="featuredImageContainer">
+            <?php the_post_thumbnail('full', array('class' => 'aligncenter featured-image')); ?> 
+            </div> <!-- .featuredImageContainer -->
+            </div> <!-- .overlayContainer -->
+            <?php else: ?>
+            <a href="<?php esc_url(the_permalink()); ?>" class="page-title no-underline">
+                    <h1><?php the_title(); ?></h1>
+                </a>
+            <hr class="hr-page-title black"/>
+            <?php endif; ?>
+            <div class="details">
+            <span id="author" class="fa fa-user">&nbsp;<?php esc_url(the_author_posts_link()); ?></span>&nbsp;<span id="time" class="fa fa-clock-o">&nbsp;<?php the_time('l, F j, Y - G:i'); ?></span>
+            </div> <!-- .details -->
+
+            <?php the_excerpt(); ?>
+            <div><a href="<?php echo esc_url(get_permalink()); ?>" class="read-more"><?php _e('Read more', 'presentizr'); ?></a></div>
+        </article>
     <?php endwhile; ?>
     </div> <!-- .col-md-9 .col-xs-12 -->
         
@@ -47,21 +47,21 @@ if (have_posts()) : ?>
             <div class="row">
                 <div class="col-xs-12 center">
                     <div class="pagination">
-    <?php
-    /**
-     * copied from default theme archive php
-     */
-    the_posts_pagination( array(
-        'prev_text'          => __( 'Previous page', 'standout' ),
-        'next_text'          => __( 'Next page', 'standout' ),
-        'before_page_number' => '<span class="meta-nav screen-reader-text">' . __('Page:', 'standout') . ' </span>',
-    ) ); ?>
+                        <?php
+                        /**
+                         * copied from default theme archive php
+                         */
+                        the_posts_pagination( array(
+                            'prev_text'          => __( 'Previous page', 'presentizr' ),
+                            'next_text'          => __( 'Next page', 'presentizr' ),
+                            'before_page_number' => '<span class="meta-nav screen-reader-text">' . __('Page:', 'presentizr') . ' </span>',
+                        ) ); ?>
                     </div> <!-- .pagination -->
                 </div> <!-- .col-xs-12 .center -->
             </div> <!-- .row -->
     <?php
     else: 
-    get_template_part('content', 'none');
+        get_template_part('content', 'none');
     endif;
-get_footer();
+    get_footer();
 ?>

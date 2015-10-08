@@ -28,7 +28,7 @@ if($numpages == $page) :
     <div class="row tags">
         <div class="col-xs-12">
             <div id='tags'>
-                <span id="tag-category-label"><?php _e('Tags:', 'standout') ?></span>
+                <span id="tag-category-label"><?php _e('Tags:', 'presentizr') ?></span>
                 <?php the_tags('', '', ''); ?>
             </div> <!-- #tags -->
         </div> <!-- .col-xs-12 -->
@@ -38,7 +38,7 @@ if($numpages == $page) :
     <div class="row categories">
         <div class="col-xs-12">
             <div id="categories">
-                <span id="tag-category-label"><?php _e('Categories: ', 'standout'); ?></span>
+                <span id="tag-category-label"><?php _e('Categories: ', 'presentizr'); ?></span>
                 <?php the_category(); ?>
             </div> <!-- #tags -->
         </div> <!-- .col-xs-12 -->

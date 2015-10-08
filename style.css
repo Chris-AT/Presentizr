@@ -1,19 +1,16 @@
 /*
 Theme Name: Presentizr
 Author: Chris-AT
-Version: 1.0
+Version: 1.0.1
 Description: Bootstrap-based theme (fully responsive), translation ready, integrated share buttons, integrated facebook comment plugin
 Tags: translation-ready, right-sidebar, custom-menu, sticky-post, black, white
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: presentizr
 */
 .wrappertable {
     display: table;
     width: 100%;
-}
-
-.gallery-caption {
-    
 }
 
 .wrappercell {
@@ -112,7 +109,7 @@ nav .menu li:hover > a {
 /* </editor-fold> */
 
 
-#home-body {
+.page-template-template-front-page {
     background-color: #FFF;
     background-image: url('pictures/home_picture.jpg');
     -webkit-background-size: cover;

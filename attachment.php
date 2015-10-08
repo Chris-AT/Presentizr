@@ -8,7 +8,7 @@ if(have_posts()) {    the_post();?>
     <h1><?php the_title();?> </h1>
     <?php echo wp_get_attachment_image(get_the_ID(), 'full');
     $sizes = get_intermediate_image_sizes();
-    _e('Download:', 'standout');
+    _e('Download:', 'presentizr');
     echo ' ';
     //add full size to download (not included in get_intermediate_image_sizes() )
     $sizes[] = 'full';

@@ -5,7 +5,6 @@
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <meta name="description" content="<?php bloginfo('description'); ?>"/>
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-        <title><?php wp_title(); ?></title>
         <?php if(is_single()) : ?>
         <!-- meta data for single posts for Facebook -->
             <meta property="og:title" content="<?php the_title(); ?>" />
@@ -14,7 +13,7 @@
             <?php endif; //has_post_thumbnail() ?>
         <?php endif; //is_single() ?>
         <?php wp_head(); ?>  
-        <?php echo get_option('header-include'); ?>
+        
     </head>
     <body <?php echo is_page_template('page_front-page.php') ? 'id="home-body"' : '' ?> <?php body_class() ?>>
         
@@ -23,13 +22,6 @@
         if( ($user_setting_fb == '3') || (is_single() && $user_setting_fb == '1') || (is_page() && $user_setting_fb == '2') ) : ?>
         <!-- has to be directly after body according to FB, no App ID necessary -->
             <div id="fb-root"></div>
-            <script>(function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
         <?php endif;
         if(has_nav_menu('primary')) : ?>
         <div class="topMenuContainer">
@@ -107,7 +99,7 @@
         </div> <!-- .container -->
         </div> <!-- .topMenuContainer -->
         <?php endif; ?>
-        <div class="container">
+        <div class="container middleContainer">
             <?php if(has_nav_menu('left-with-icons')) : ?>
             <div class="row">
                 <div class="col-md-12 hidden-sm hidden-xs">
@@ -135,7 +127,7 @@
                 </div> <!-- .col-xs-12 -->
             </div> <!-- .row -->
             <div class="row">
-                <div class="hidden-lg hidden-md col-sm-12 col-xs-12 bottomMobileMenuButton arrowsup"><span class='menutext'><?php _e('Menu', 'standout'); ?></span></div>
+                <div class="hidden-lg hidden-md col-sm-12 col-xs-12 bottomMobileMenuButton arrowsup"><span class='menutext'><?php _e('Menu', 'presentizr'); ?></span></div>
                 
                 <div class="hidden-lg hidden-md col-sm-12 col-xs-12 bottomMobileMenu">
                     <?php 
@@ -162,7 +154,7 @@
         <?php endif;
         if(has_nav_menu('secondary')) : ?>
             <div class="rotate secondary-menu-button arrowsup">
-                <?php _e('Menu', 'standout'); ?>
+                <?php _e('Menu', 'presentizr'); ?>
             </div><!-- .rotate .secondary-menu -->
             <div class="hidden-lg hidden-md col-sm-1 col-xs-1 bottomMobileMenuButtonRightMenu">&lt;</div>
         <div class="secondary-menu">

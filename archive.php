@@ -27,9 +27,9 @@ if (have_posts()) : ?>
                 * copied from default theme archive php
                 */
                the_posts_pagination( array(
-                   'prev_text'          => __( 'Previous page', 'standout' ),
-                   'next_text'          => __( 'Next page', 'standout' ),
-                   'before_page_number' => '<span class="meta-nav screen-reader-text">'  . __('Page:', 'standout') . ' </span>',
+                   'prev_text'          => __( 'Previous page', 'presentizr' ),
+                   'next_text'          => __( 'Next page', 'presentizr' ),
+                   'before_page_number' => '<span class="meta-nav screen-reader-text">'  . __('Page:', 'presentizr') . ' </span>',
                ) ); ?>
             </div> <!-- .col-xs-12 -->
         </div> <!-- .row -->

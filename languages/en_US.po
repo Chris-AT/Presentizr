@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: standout\n"
-"POT-Creation-Date: 2015-07-22 11:01+0100\n"
-"PO-Revision-Date: 2015-07-22 11:02+0100\n"
+"Project-Id-Version: presentizr\n"
+"POT-Creation-Date: 2015-10-01 18:39+0100\n"
+"PO-Revision-Date: 2015-10-01 18:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -15,195 +15,234 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../archive.php:28
+#: ../archive.php:30 ../index.php:55 ../search.php:31
 msgid "Previous page"
 msgstr ""
 
-#: ../archive.php:29
+#: ../archive.php:31 ../index.php:56 ../search.php:32
 msgid "Next page"
 msgstr ""
 
-#: ../archive.php:30
-msgid "Page"
+#: ../archive.php:32 ../index.php:57 ../search.php:33
+msgid "Page:"
 msgstr ""
 
-#: ../content-none.php:2
-msgid "Oops, there seems to be no content :("
+#: ../attachment.php:11
+msgid "Download:"
 msgstr ""
 
-#: ../content-post.php:17
-msgid "Tags:"
-msgstr ""
-
-#: ../content-post.php:27
-msgid "Categories: "
-msgstr ""
-
-#: ../footer.php:11
-msgid "Scroll to top"
-msgstr ""
-
-#: ../functions.php:97
-msgid "How many links on the home page?"
-msgstr ""
-
-#: ../functions.php:115
-msgid "Page for 1. box"
-msgstr ""
-
-#: ../functions.php:127
-msgid "Page for 2. box"
-msgstr ""
-
-#: ../functions.php:139
-msgid "Page for 3. box"
-msgstr ""
-
-#: ../functions.php:149
-msgid "Color of the pages title"
-msgstr ""
-
-#: ../functions.php:157
-msgid "Color of the pages box"
-msgstr ""
-
-#: ../functions.php:165
-msgid "Background Image"
-msgstr ""
-
-#: ../functions.php:176
-msgid "Comments"
-msgstr ""
-
-#: ../functions.php:177
-msgid "Should the Facebook Comment Plugin be displayed?"
-msgstr ""
-
-#: ../functions.php:193
-msgid "Where to show comments plugin of Facebook?"
-msgstr ""
-
-#: ../functions.php:198
-msgid "Nowhere"
-msgstr ""
-
-#: ../functions.php:199
-msgid "Posts only"
-msgstr ""
-
-#: ../functions.php:200
-msgid "Pages only"
-msgstr ""
-
-#: ../functions.php:201
-msgid "Posts and Pages"
-msgstr ""
-
-#: ../functions.php:212
-msgid "Share Buttons"
-msgstr ""
-
-#: ../functions.php:213 ../functions.php:229
-msgid "Should Share Buttons be displayed?"
-msgstr ""
-
-#: ../functions.php:266
-msgid "Footer Sidebar"
-msgstr ""
-
-#: ../functions.php:268
-msgid "Widgets in this area will be shown on all pages in the footer."
-msgstr ""
-
-#: ../functions.php:275
-msgid "Right Sidebar"
-msgstr ""
-
-#: ../functions.php:277
-msgid "Widgets in this area will be shown on all pages and posts on the right."
-msgstr ""
-
-#: ../functions.php:337
+#: ../content-archive.php:5 ../index.php:36
 msgid "Read more"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:48
+#: ../content-none.php:3
+msgid "Oops, there seems to be no content :("
+msgstr ""
+
+#: ../content-post.php:31
+msgid "Tags:"
+msgstr ""
+
+#: ../content-post.php:41
+msgid "Categories: "
+msgstr ""
+
+#: ../footer.php:14
+msgid "Scroll to top"
+msgstr ""
+
+#: ../functions.php:48
+msgid "Assign Pages"
+msgstr ""
+
+#: ../functions.php:49
+msgid ""
+"Assign the pages to the home page menus. If you choose to show 2, the first "
+"2 will be displayed. (Note: You have to set \"static page\" and use the Page "
+"Template \"Front Page\" for that.)"
+msgstr ""
+
+#: ../functions.php:131
+msgid "How many links on the home page?"
+msgstr ""
+
+#: ../functions.php:149
+msgid "Page for 1. box"
+msgstr ""
+
+#: ../functions.php:161
+msgid "Page for 2. box"
+msgstr ""
+
+#: ../functions.php:173
+msgid "Page for 3. box"
+msgstr ""
+
+#: ../functions.php:183
+msgid "Color of the pages title"
+msgstr ""
+
+#: ../functions.php:191
+msgid "Color of the pages box"
+msgstr ""
+
+#: ../functions.php:199
+msgid "Background Image"
+msgstr ""
+
+#: ../functions.php:210
+msgid "Comments"
+msgstr ""
+
+#: ../functions.php:211
+msgid "Should the Facebook Comment Plugin be displayed?"
+msgstr ""
+
+#: ../functions.php:228
+msgid "Where to show comments plugin of Facebook?"
+msgstr ""
+
+#: ../functions.php:233
+msgid "Nowhere"
+msgstr ""
+
+#: ../functions.php:234
+msgid "Posts only"
+msgstr ""
+
+#: ../functions.php:235
+msgid "Pages only"
+msgstr ""
+
+#: ../functions.php:236
+msgid "Posts and Pages"
+msgstr ""
+
+#: ../functions.php:247
+msgid "Share Buttons"
+msgstr ""
+
+#: ../functions.php:248 ../functions.php:265
+msgid "Should Share Buttons be displayed?"
+msgstr ""
+
+#: ../functions.php:275
+msgid "Color"
+msgstr ""
+
+#: ../functions.php:308
+msgid "Footer Sidebar"
+msgstr ""
+
+#: ../functions.php:310
+msgid "Widgets in this area will be shown on all pages in the footer."
+msgstr ""
+
+#: ../functions.php:317
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../functions.php:319
+msgid "Widgets in this area will be shown on all pages and posts on the right."
+msgstr ""
+
+#: ../functions.php:468
+msgid "The following menu items do not have an icon associated:"
+msgstr ""
+
+#: ../header.php:138 ../header.php:165
+msgid "Menu"
+msgstr ""
+
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:49
 #, php-format
 msgid "%s (Invalid)"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:52
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:53
 #, php-format
 msgid "%s (Pending)"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:65
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:66
 msgid "sub item"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:97
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:98
 msgid "Edit Menu Item"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:106
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:107
 msgid "URL"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:113
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:114
 msgid "Navigation Label"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:119
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:120
 msgid "Title Attribute"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:126
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:127
 msgid "Open link in a new window/tab"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:131
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:132
 msgid "CSS Classes (optional)"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:145
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:146
 msgid "Link Relationship (XFN)"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:151
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:152
 msgid "Description"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:153
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:154
 msgid ""
 "The description will be displayed in the menu if the current theme supports "
 "it."
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:159
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:160
 msgid "Move"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:160
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:161
 msgid "Up one"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:161
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:162
 msgid "Down one"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:164
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:165
 msgid "To the top"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:171
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:172
 #, php-format
 msgid "Original: %s"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:184
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:185
 msgid "Remove"
 msgstr ""
 
-#: ../inc/Walker_Nav_Menu_Edit_Custom.class.php:185
+#: ../inc/Presentizr_Walker_Nav_Menu_Edit_Custom.class.php:186
 msgid "Cancel"
+msgstr ""
+
+#: ../search.php:7
+msgid "Search results for:"
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Search for:"
+msgstr ""
+
+#: ../searchform.php:9
+msgid "Search"
 msgstr ""
