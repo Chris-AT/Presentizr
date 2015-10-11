@@ -8,6 +8,11 @@ License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: presentizr
 */
+/*has to be in here for wordpress theme check*/
+.gallery-caption {
+    
+}
+
 .wrappertable {
     display: table;
     width: 100%;

@@ -51,9 +51,7 @@ function presentizr_customize_register($wp_customize) {
             'assign-pages',
             array(
                 'title' => __('Assign Pages', 'presentizr'),
-                'description' => __('Assign the pages to the home page menus.'
-                . ' If you choose to show 2, the first 2 will be displayed. (Note: You have'
-                . ' to set "static page" and use the Page Template "Front Page" for that.)', 'presentizr'),
+                'description' => __('Assign the pages to the home page menus. If you choose to show 2, the first 2 will be displayed. (Note: You have to set "static page" and use the Page Template "Front Page" for that.)', 'presentizr'),
                 'priority' => 35
             )
     );
